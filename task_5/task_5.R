@@ -2,7 +2,7 @@
 
 pmean<-function(directory,pollutant,id=1:332){
   d<-directory
-  setwd(paste0("C:/Users/Lena/Desktop/R_Lab/",d))
+  setwd(paste0("D:\univ\tasks_R\",d))
   i<-1
   file_out<-data.frame()
   while (i<=length(id)){
@@ -19,7 +19,7 @@ pmean("specdata","sulfate",1:10)
 #5_2
 completely<-function(directory,id=1:332){
   d<-directory
-  setwd(paste0("C:/Users/Lena/Desktop/R_Lab/",d))
+  setwd(paste0("D:\univ\tasks_R\",d))
   i<-1
   file_out<-data.frame(id_col=NA,value=NA)
   while (i<=length(id)){
@@ -37,7 +37,7 @@ completely("specdata",2:5)
 #5_3
 corr <- function(directory, threshold = 0) {
   d<-directory
-  setwd(paste0("C:/Users/Lena/Desktop/R_Lab/",d))
+  setwd(paste0("D:\univ\tasks_R\",d))
   i<-1
   cr <- c() 
   while (i<=332){
