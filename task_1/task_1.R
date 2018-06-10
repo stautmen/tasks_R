@@ -5,7 +5,7 @@ class(v1_character)
 v2_numeric<--11.6
 class(v2_numeric)
 
-v3_integer<-3L
+v3_integer<-3L #ВКАЗУЄ, ЩО ЦЕ ЦІЛЕ ЧИСЛО
 class(v3_integer)
 
 v4_complex<-2+2i
@@ -53,7 +53,13 @@ min(which(is.na(x)))
 length(which(is.na(x)))
 
 #1_7
-mydata<-read.csv('Score_lab1.csv')
+employee<-c('John Doe','Peter Gynn','Jolie Hope')
+salary<-c(21000, 23400, 26800)
+startdate<-as.Date(c('2010-11-1','2008-3-25','2007-3-14'))
+employ.data <- data.frame(employee, salary, startdate)
+str(employ.data)
+
 
 #1_8
-names(mydata)<- c("Name2","Surname2","Gender2","Faculty2","Subject_qty2","Score_avg2")
+names(employ.data)<- c("Name2","Surname2","Gender2")
+str(employ.data)
