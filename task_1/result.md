@@ -17,7 +17,7 @@ integer, complex, logical.
 
 
 Результат виконання:
-> #1_1  
+> **#1_1**  
 > v1_character<-"RStudio"  
 > class(v1_character)  
 [1] "character"  
@@ -33,13 +33,13 @@ integer, complex, logical.
 > v5_logical<-TRUE  
 > class(v5_logical)  
 [1] "logical"  
-> #1_2  
+> **#1_2**  
 > vec_1<-5:75  
 > vec_2_one_class<-c(3.14,2.71,0,13)  
 > vec_2_diff_class<-list(3.14,2.72,0,13)  
 > vec_3<-1:100!=0  
 > vec_3_2<-rep(TRUE, 100)  
-> #1_3  
+> **#1_3**  
 > #matrix  
 > m<-list(0.5,3.9,0,2,1.3,131,2.2,7,3.5,2.8,4.6,5.1)  
 > dim(m)<-c(4,3)  
@@ -64,21 +64,21 @@ x 0.5  1.3  3.5
 y 3.9  131  2.8  
 z 0    2.2  4.6  
 t 2    7    5.1  
-> #1_4  
+> **#1_4**  
 > List<-list("RStudio",-11.6,3L,-2+2i,TRUE)  
-> #1_5  
+> **#1_5**  
 > text<-c("baby","baby","child","child","child","adult")  
 > factor_text<-factor(text,levels=c("baby","child","adult"))  
 > factor_text[1]  
 [1] baby  
 Levels: baby child adult  
-> #1_6  
+> **#1_6**  
 > x<-c(1,2,3,4,NA,6,7,NA,9,NA,11)  
 > min(which(is.na(x)))  
 [1] 5  
 > length(which(is.na(x)))  
 [1] 3  
-> #1_7  
+> **#1_7**  
 > employee<-c('John Doe','Peter Gynn','Jolie Hope')  
 > salary<-c(21000, 23400, 26800)  
 > startdate<-as.Date(c('2010-11-1','2008-3-25','2007-3-14'))  
@@ -88,7 +88,7 @@ Levels: baby child adult
  $ employee : Factor w/ 3 levels "John Doe","Jolie Hope",..: 1 3 2  
  $ salary   : num  21000 23400 26800  
  $ startdate: Date, format: "2010-11-01" "2008-03-25" "2007-03-14"  
-> #1_8  
+> **#1_8**  
 > names(employ.data)<- c("Name2","Surname2","Gender2")  
 > str(employ.data)  
 'data.frame':	3 obs. of  3 variables:  
